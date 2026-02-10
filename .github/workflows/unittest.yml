@@ -19,10 +19,10 @@ jobs:
         python-version: 3.8
 
     - name: Install dependencies
-      run: pip install -r Github_Labs/lab_01/requirements.txt
+      run: pip install -r Github_Labs/Lab_01/requirements.txt
 
     - name: Run unittests
-      run: cd Github_Labs/lab_01 && python -m unittest test.test_uni
+      run: cd Github_Labs/Lab_01 && python -m unittest test.test_uni
 
     - name: Notify on success
       if: success()
