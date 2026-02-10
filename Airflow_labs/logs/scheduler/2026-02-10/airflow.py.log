@@ -1,0 +1,74 @@
+[2026-02-10T21:43:28.427+0000] {processor.py:161} INFO - Started process (PID=100) to work on /opt/airflow/dags/airflow.py
+[2026-02-10T21:43:28.429+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2026-02-10T21:43:28.434+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:43:28.433+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2026-02-10T21:43:32.014+0000] {processor.py:840} INFO - DAG(s) 'wine_classification_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2026-02-10T21:43:32.585+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:43:32.584+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:wine_classification_pipeline
+[2026-02-10T21:43:32.600+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:43:32.600+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:wine_classification_pipeline
+[2026-02-10T21:43:32.610+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:43:32.610+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:wine_classification_pipeline
+[2026-02-10T21:43:32.612+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:43:32.611+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-10T21:43:32.627+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:43:32.626+0000] {dag.py:3118} INFO - Creating ORM DAG for wine_classification_pipeline
+[2026-02-10T21:43:32.628+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:43:32.628+0000] {dag.py:3954} INFO - Setting next_dagrun for wine_classification_pipeline to None, run_after=None
+[2026-02-10T21:43:32.661+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 4.245 seconds
+[2026-02-10T21:44:02.780+0000] {processor.py:161} INFO - Started process (PID=124) to work on /opt/airflow/dags/airflow.py
+[2026-02-10T21:44:02.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2026-02-10T21:44:02.788+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:44:02.788+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2026-02-10T21:44:05.693+0000] {processor.py:840} INFO - DAG(s) 'wine_classification_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2026-02-10T21:44:05.739+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:44:05.739+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-10T21:44:05.754+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:44:05.754+0000] {dag.py:3954} INFO - Setting next_dagrun for wine_classification_pipeline to None, run_after=None
+[2026-02-10T21:44:05.781+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 3.016 seconds
+[2026-02-10T21:44:36.090+0000] {processor.py:161} INFO - Started process (PID=148) to work on /opt/airflow/dags/airflow.py
+[2026-02-10T21:44:36.092+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2026-02-10T21:44:36.096+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:44:36.095+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2026-02-10T21:44:38.988+0000] {processor.py:840} INFO - DAG(s) 'wine_classification_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2026-02-10T21:44:39.032+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:44:39.031+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-10T21:44:39.050+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:44:39.050+0000] {dag.py:3954} INFO - Setting next_dagrun for wine_classification_pipeline to None, run_after=None
+[2026-02-10T21:44:39.081+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 3.006 seconds
+[2026-02-10T21:45:09.442+0000] {processor.py:161} INFO - Started process (PID=178) to work on /opt/airflow/dags/airflow.py
+[2026-02-10T21:45:09.444+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2026-02-10T21:45:09.449+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:45:09.448+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2026-02-10T21:45:12.425+0000] {processor.py:840} INFO - DAG(s) 'wine_classification_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2026-02-10T21:45:12.468+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:45:12.468+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-10T21:45:12.487+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:45:12.487+0000] {dag.py:3954} INFO - Setting next_dagrun for wine_classification_pipeline to None, run_after=None
+[2026-02-10T21:45:12.518+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 3.088 seconds
+[2026-02-10T21:45:42.706+0000] {processor.py:161} INFO - Started process (PID=202) to work on /opt/airflow/dags/airflow.py
+[2026-02-10T21:45:42.709+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2026-02-10T21:45:42.723+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:45:42.712+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2026-02-10T21:45:45.155+0000] {processor.py:840} INFO - DAG(s) 'wine_classification_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2026-02-10T21:45:45.194+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:45:45.194+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-10T21:45:45.210+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:45:45.210+0000] {dag.py:3954} INFO - Setting next_dagrun for wine_classification_pipeline to None, run_after=None
+[2026-02-10T21:45:45.236+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 2.540 seconds
+[2026-02-10T21:46:15.584+0000] {processor.py:161} INFO - Started process (PID=225) to work on /opt/airflow/dags/airflow.py
+[2026-02-10T21:46:15.586+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2026-02-10T21:46:15.590+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:46:15.589+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2026-02-10T21:46:18.041+0000] {processor.py:840} INFO - DAG(s) 'wine_classification_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2026-02-10T21:46:18.083+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:46:18.083+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-10T21:46:18.099+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:46:18.098+0000] {dag.py:3954} INFO - Setting next_dagrun for wine_classification_pipeline to None, run_after=None
+[2026-02-10T21:46:18.134+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 2.564 seconds
+[2026-02-10T21:46:48.331+0000] {processor.py:161} INFO - Started process (PID=249) to work on /opt/airflow/dags/airflow.py
+[2026-02-10T21:46:48.333+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2026-02-10T21:46:48.337+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:46:48.336+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2026-02-10T21:46:51.081+0000] {processor.py:840} INFO - DAG(s) 'wine_classification_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2026-02-10T21:46:51.162+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:46:51.162+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-10T21:46:51.183+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:46:51.183+0000] {dag.py:3954} INFO - Setting next_dagrun for wine_classification_pipeline to None, run_after=None
+[2026-02-10T21:46:51.214+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 2.893 seconds
+[2026-02-10T21:47:21.662+0000] {processor.py:161} INFO - Started process (PID=273) to work on /opt/airflow/dags/airflow.py
+[2026-02-10T21:47:21.664+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2026-02-10T21:47:21.668+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:47:21.667+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2026-02-10T21:47:24.203+0000] {processor.py:840} INFO - DAG(s) 'wine_classification_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2026-02-10T21:47:24.246+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:47:24.245+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-10T21:47:24.264+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:47:24.264+0000] {dag.py:3954} INFO - Setting next_dagrun for wine_classification_pipeline to None, run_after=None
+[2026-02-10T21:47:24.295+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 2.643 seconds
+[2026-02-10T21:47:54.693+0000] {processor.py:161} INFO - Started process (PID=297) to work on /opt/airflow/dags/airflow.py
+[2026-02-10T21:47:54.695+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2026-02-10T21:47:54.699+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:47:54.698+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2026-02-10T21:47:57.102+0000] {processor.py:840} INFO - DAG(s) 'wine_classification_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2026-02-10T21:47:57.147+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:47:57.146+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-10T21:47:57.164+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:47:57.163+0000] {dag.py:3954} INFO - Setting next_dagrun for wine_classification_pipeline to None, run_after=None
+[2026-02-10T21:47:57.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 2.519 seconds
+[2026-02-10T21:48:27.617+0000] {processor.py:161} INFO - Started process (PID=321) to work on /opt/airflow/dags/airflow.py
+[2026-02-10T21:48:27.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2026-02-10T21:48:27.641+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:48:27.639+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2026-02-10T21:48:32.070+0000] {processor.py:840} INFO - DAG(s) 'wine_classification_pipeline' retrieved from /opt/airflow/dags/airflow.py
+[2026-02-10T21:48:32.125+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:48:32.124+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-10T21:48:32.162+0000] {logging_mixin.py:188} INFO - [2026-02-10T21:48:32.162+0000] {dag.py:3954} INFO - Setting next_dagrun for wine_classification_pipeline to None, run_after=None
+[2026-02-10T21:48:32.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 4.657 seconds
