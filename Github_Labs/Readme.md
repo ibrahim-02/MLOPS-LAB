@@ -7,6 +7,19 @@ This repository contains two GitHub Actions labs demonstrating CI/CD pipelines f
 
 ---
 
+## What I Did Differently from the Reference Lab
+
+The reference lab used a **Random Forest Classifier** trained on the **Iris dataset** — a simple 3-class flower classification problem with only 4 features.
+
+For this lab, I swapped both the model and the dataset:
+
+- **Dataset:** Used the **Wine dataset** (178 samples, 13 features) instead of Iris — a more feature-rich dataset requiring the model to distinguish between 3 wine cultivars based on chemical properties like alcohol content, flavanoids, and color intensity.
+- **Model:** Used a **Gradient Boosting Classifier** instead of Random Forest. Gradient Boosting builds trees sequentially where each tree corrects the errors of the previous one, making it generally more accurate but slower to train than Random Forest which builds trees in parallel.
+- **Hyperparameters:** Configured `n_estimators=100`, `learning_rate=0.1`, and `max_depth=3` — the learning rate controls how much each tree contributes to the final prediction, which is a tuning parameter not present in the reference Random Forest setup.
+
+
+---
+
 ## Lab 01 — Automated Testing with Pytest & Unittest
 
 ### What I Did
@@ -139,10 +152,12 @@ MLOPS-LAB/
 └── workflows/
     ├── pytest.yml
     ├── unittest.yml
-    └── train-and-save.yml
+    └── train-and-upload.yml
 ```
 
 ---
+
+
 
 ## Key Concepts Demonstrated
 
