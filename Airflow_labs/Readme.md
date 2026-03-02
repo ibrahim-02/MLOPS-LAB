@@ -8,11 +8,6 @@ This lab demonstrates how to build and orchestrate a machine learning pipeline u
 
 Instead of using the default Iris or a simple demo dataset, I used the **Wine dataset** from `sklearn.datasets` and trained it using a **GradientBoostingClassifier** (rather than a simpler model like Logistic Regression or Decision Tree). This allowed me to explore ensemble learning within an orchestrated ML pipeline context.
 
----
-
-## Project Structure
-
----
 
 ## Pipeline Architecture
 
