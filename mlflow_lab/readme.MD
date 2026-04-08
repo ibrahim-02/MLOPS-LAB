@@ -1,7 +1,7 @@
 # 🚢 MLflow Lab — Titanic Survival Prediction
 
 > **Course:** IE 7374 — MLOps  
-> **Author:** Ibrahim (Ibbu)  
+> **Author:** Ibrahim  
 > **Dataset:** Titanic (binary classification)  
 > **Notebook:** `mlflow_titanic.ipynb`
 
